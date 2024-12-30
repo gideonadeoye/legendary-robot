@@ -1,0 +1,171 @@
+*{
+    font-family: jost,sans-serif;
+}
+.dropdown-menu{
+    font-weight: 600;
+}
+.get-it{
+    color: white;
+    background-color: blueviolet;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 10px;
+}
+section{
+    padding: 80px 30px;
+/* 
+ * This file contains the CSS styles for the shopping cart page.
+ */
+}
+.section1{
+    padding: 50px 20px;
+    align-items: center;
+    background-color: darkblue;
+}
+
+.section2 {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.section2-inner {
+    margin-bottom: 30px;
+}
+
+.section2-h {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.section2-p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.section2-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cart-btn{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.container{
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+footer{
+    background-color:#0a1c3a;
+    color: white;
+    
+}
+.footer-inner{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.big{
+    width: 30%;
+}
+.footer-element{
+    padding: 0px 5px;
+    
+    
+}
+.footer-h{
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.footer-t{
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+}
+.footer-t:hover{
+    color: rgb(83, 43, 226);
+}
+.bi-cart{
+    margin: 20px 0px;
+}
+.pp{
+    margin-left: 10px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.footer-end{
+    padding: 30px 20px;
+}
+
+.footer-icons{
+    padding: 10px;
+    display: grid;
+    margin: 0px 5px;
+    background-color: #696CFF;
+    align-items: center;
+    border-radius: 50%;
+}
+.footer-icons:hover{
+    background-color: #222731;
+}
+.footer-logo{
+    margin: 5px 10px;
+    color: white;
+}
+.footer-logo:hover{
+    color: darkblue;
+}
+.footer-list{
+    padding: 7px 0px;
+    list-style-type: none;
+}
+.b{
+    font-weight: 600;
+    color: white;
+}
+.links-footer{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.section6{
+    padding: 50px 20px;
+}
+.section6-each{
+    padding: 10px;
+}
+
+.links-footer:hover{
+color: #f8bc3e;
+}
+@media screen and (max-width:992px) {
+    .footer-inner{
+        display: block;
+    }
+    .footer-element{
+        width: 100%;
+    }
+}
